@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio | Aditya Pratama</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="jumbotron text-center" id="jumbotron">
+        <img src="adit.jpg" class="img-circle">
+        <h1>ADITYA PRATAMA</h1>
+        <p>SUPORTER | MAHASISWA SISTEM INFORMASI</p>
+    </div>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="nav navbar-nav navbar-center">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#codeprojects">Proyek Kode</a></li> 
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center">About</h2>
+                    <hr> 
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-5 col-sm-offset-1">
+                    <p>mahasiswa sistem informasi yang berkuliah di universitas pgri jombang</p>
+                    <p>lahir di jombang 12 juni 2006</p>
+                    <p>pernah juara 3 di turnamen free fire</p>
+                    <p>suka berkelana</p>
+                </div>
+                <div class="col-sm-5">
+                    <p>pendukung real madrid-hala madrid</p>
+                    <p>pernah membantai yoga 7-1 di fc 26</p>
+                    <p>top global nomer satu SG 2</p>
+                    <p>pernah masuk top 898 global di efootbal</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="codeprojects section-padding" id="codeprojects">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Proyek Kode Program</h2>
+                    <hr>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="well">
+                        <h4>Contoh Skrip (Python)</h4>
+                        <pre><code>
+# Program Sederhana: Menghitung Luas Persegi Panjang
+panjang = 10
+lebar = 5
+luas = panjang * lebar
+
+def tampilkan_hasil():
+    print(f"Panjang: {panjang}")
+    print(f"Lebar: {lebar}")
+    print(f"Luas Total: {luas}")
+
+tampilkan_hasil()
+                        </code></pre>
+                        <p class="text-muted">Ini adalah contoh proyek yang menunjukkan kemampuan coding saya.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portofolio section-padding" id="portofolio">
+    <div class="container">
+        <div class="col-sm-12 text-center">
+            <h2>portofolio</h2>
+            <hr>
+        </div>
+        
+        <div class="col-sm-4">
+            <a href="" class="thumbnail">
+                <img src="kai.jpg.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4">
+            <a href="" class="thumbnail">
+                <img src="1.jpg.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4">
+            <a href="" class="thumbnail">
+                <img src="adi.jpeg">
+            </a>
+        </div>
+    </div>
+    </section>
+
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center">Contact</h2>
+                    <hr>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <form>
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input type="text" id="nama" class="form-control" placeholder="Masukkan nama">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Masukkan email">
+                        </div>
+                        <div class="form-group">
+                            <label for="telp">Nomor Telepon</label>
+                            <input type="tel" id="telp" class="form-control" placeholder="Masukkan nomor telepon">
+                        </div>
+                        <div class="form-group">
+                            <label for="kategori">Pilih Kategori</label>
+                            <select class="form-control" id="kategori">
+                                <option>Pilih Kategori</option>
+                                <option>mabar free fire</option>
+                                <option>main futsal</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="pesan">Pesan</label>
+                            <textarea class="form-control" rows="10" placeholder="Masukkan pesan"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>&copy; 2025. Built with <i class="glyphicon glyphicon-heart"></i> by <a href="https://www.instagram.com/ysl_24_66?igsh=NXZsd3d0Z21xN2Fq">aditya</a>.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="https://www.instagram.com/ysl_24_66?igsh=NXZsd3d0Z21xN2Fq" class="btn btn-danger"><i class="glyphicon glyphicon-play"></i> instgram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+          $('a[href^="#"]').on('click', function(e) {
+            e.preventDefault();
+
+            var target = this.hash;
+            var $target = $(target);
+
+            // Durasi yang lebih lama (1000ms) untuk efek yang lebih halus (smoot)
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top 
+            }, 1000, 'swing'); 
+          });
+        });
+    </script>
+</body>
+</html>
